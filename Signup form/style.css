@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("bg.jpg");
+    font-family: 'Zen Dots', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.signup{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    border: 2px solid #64615d;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background: linear-gradient(to top left,rgb(37,37,37),#0D2640);
+    box-shadow: 5px 5px 5px #64615d;
+}
+.signup-header h1{
+    font-size: 3rem;
+    color: #b68f54;
+    text-align: center;
+}
+.signup-header p{
+    font-size: 1rem;
+    text-align: center;
+}
+.signup-main{
+    margin: 20px 0;
+}
+.signup-main p{
+    margin: 15px 0 0 15px;
+    color: #b68f54;
+}
+.signup-main p input[type="text"]{
+    display: block;
+    width: 100%;
+}
+.signup-main p input[type="email"]{
+    display: block;
+    width: 100%;
+}
+.signup-main p input{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+    padding: 3px;
+}
+.signup-main p input[type="submit"]{
+    background-color: #3498db;
+    border: none;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 110px;
+    padding: 5px;
+}
+.signup-main p input[type="submit"]:hover{
+    background-color: #1e5c85;
+}
+.signup-footer p{
+    color: rgb(134, 131, 131);
+}
+.signup-footer p a{
+    color: #b68f54;
+    text-decoration: none;
+}
+.signup-footer p a:hover{
+    color:#3498db;
+}
+/*Thanku! if you like the video please do subscribe to my youtube channel*/
