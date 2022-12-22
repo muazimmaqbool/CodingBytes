@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 80vh;
+            background-color: #10ac84;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            background: transparent;
+            border-radius: 10px;
+            font-size: 1rem;
+            width: fit-content;
+        }
+        .container{
+            margin-top: 10px;
+        }
+        #enter{
+            width: fit-content;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<!-- Thanku if you like this tutorial please subscribe and like--->
+
+<body>
+    <h1 id="SetHere">Your OTP is: <span></span></h1>
+    <button>Generate</button>
+    <div class="container">
+        <input type="text" id="enter" placeholder="Enter OTP">
+        <button id="btnverify">Verify</button>
+    </div>
+    <script>
+        function Generate(){
+            var digits='0123456789';
+            let otp='';
+            for(let i=0;i<4;i++){
+                otp+=digits[Math.floor(Math.random()*10)]
+            }
+            return otp;
+        }
+        function verifyOTP(){
+            var myOTP=document.getElementById("enter").value;
+            var OTPorginal=document.querySelector("span").innerHTML;
+            if(myOTP == OTPorginal){
+                alert("Right OTP");
+            }
+            else{
+                alert("Wrong OTP");
+            }
+        }
+        document.querySelector("button").onclick=function(){
+            document.querySelector("span").innerHTML=Generate();
+        }
+        document.getElementById("btnverify").onclick=function(){
+            verifyOTP();
+        }
+    </script>
+</body>
+</html>
