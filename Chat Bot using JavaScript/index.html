@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatWithBot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ask Questions?</h1>
+        <div class="ask-input">
+            <input type="text" id="questionBox" 
+            onkeydown="if(event.keyCode == 13){chat()}"
+            placeholder="Ask Your Question Here!">
+        </div>
+        <p id="answerBox">Answer will Appear Here</p>
+    </div>
+    <script src="jsfile.js"></script>
+</body>
+</html>
