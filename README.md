@@ -1,4 +1,7 @@
 
-Contains source code of videos that are uploaded my youtube channel : Muazim Codes
-youtube channel link : https://www.youtube.com/channel/UCPxO498xh8-91bw47DR1NsQ
--> The code link for the particular video will be in the video description
+Welcome to the "CodingBytes" GitHub repository!
+youtube link : 
+This repository contains the source code for the YouTube videos on the CodingBytes channel.
+Here, you can find examples of code, scripts, and other resources featured in our videos. 
+We hope that this repository will be a valuable resource for learning and exploring new coding concepts. 
+Feel free to explore, contribute, and share with others who are passionate about coding!
