@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        div img{
+            width: 350px;
+            height: 350px;
+            transform: translateY(50px);
+            /*code for reflection*/
+            /*10px is gap between image and its reflection*/
+            /*lets add some gradient to it to look better*/
+            -webkit-box-reflect: left 10px
+             linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,1))
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="img.png">
+    </div>
+</body>
+</html>
